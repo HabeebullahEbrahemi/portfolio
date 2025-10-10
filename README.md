@@ -146,7 +146,7 @@ git push
 **Name:** Habeebullah Ebrahemi
 **Location:** New Delhi, India
 **Email:** [habeebullahebrahemi@gmail.com](mailto:habeebullahebrahemi@gmail.com)
-**Phone:** +91 87009 39579
+**Phone:** +91 xxxxxxxxxx
 
 **LinkedIn:** *[Your LinkedIn URL]*
 **GitHub:** [https://github.com/HabeebullahEbrahemi](https://github.com/HabeebullahEbrahemi)
