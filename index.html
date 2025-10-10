@@ -2,140 +2,329 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Your Name — Portfolio</title>
-  <meta name="description" content="Portfolio of Your Name — Frontend Developer. Projects using HTML, CSS, Bootstrap, JS." />
-  <link rel="icon" href="assets/images/favicon.png" />
-  <!-- Bootstrap CSS (CDN) -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- Optional Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Habeebullah Ebrahemi — Data Scientist & Software Developer</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <meta name="description" content="Habeebullah Ebrahemi — Data Scientist & Software Developer. MSc (Computer Science).">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="80" tabindex="0">
+
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm bg-white">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#">YourName</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-        <span class="navbar-toggler-icon"></span>
+      <a class="navbar-brand fw-bold" href="#hero">Habeebullah Ebrahemi.</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
       </button>
-      <div id="mainNav" class="collapse navbar-collapse">
+      <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          <li class="nav-item ms-2"><a class="btn btn-primary" href="assets/YourName_Resume.pdf" target="_blank">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+          <li class="nav-item"><a class="btn btn-primary ms-3" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- HERO -->
-  <header class="hero py-8" id="home" style="margin-top:70px">
+  <header id="hero" class="py-7">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold">Hi — I'm Your Name</h1>
-          <p class="lead">Frontend developer building accessible, responsive websites with attention to performance and detail.</p>
-          <p>
-            <a class="btn btn-primary me-2" href="#projects">View Work</a>
-            <a class="btn btn-outline-secondary" href="#contact">Hire Me</a>
-          </p>
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-7">
+          <h1 class="display-5 fw-extrabold mb-2">Habeebullah Ebrahemi</h1>
+          <p class="lead mb-3">MSc (Computer Science) — <span class="text-primary">Data Scientist & Software Developer</span></p>
+          <p class="text-muted">I design and implement scalable data-driven solutions: web scraping, predictive models, EDA, automation, and full-stack prototypes. I combine strong software engineering practises with machine learning and data engineering to solve practical problems.</p>
+
+          <div class="mt-4">
+            <a href="#projects" class="btn btn-outline-primary me-2">See Projects</a>
+            <a href="#contact" class="btn btn-primary">Hire / Contact</a>
+            <!-- Replace the href with your actual resume path or a hosted link -->
+            <a href="Habeebullah CV 2025.pdf" class="btn btn-link ms-3" download><i class="fa fa-download"></i> Download CV</a>
+          </div>
+
+          <ul class="list-inline mt-4 text-muted small">
+            <li class="list-inline-item"><i class="fa fa-map-marker-alt me-1"></i> New Delhi, India</li>
+            <li class="list-inline-item"><i class="fa fa-phone me-1"></i> +91 87009 39579</li>
+            <li class="list-inline-item"><i class="fa fa-envelope me-1"></i> habeebullahebrahemi@gmail.com</li>
+          </ul>
         </div>
-        <div class="col-lg-6 text-center">
-          <img src="assets/images/hero.jpg" alt="Your photo or design" class="img-fluid rounded shadow-sm" />
+
+        <div class="col-lg-5 text-center">
+          <div class="card profile-card shadow-sm">
+            <div class="card-body">
+              <div class="avatar-placeholder mb-3">HE</div>
+              <h5 class="mb-0 fw-bold">Habeebullah Ebrahemi</h5>
+              <small class="text-muted">MSc (Computer Science)</small>
+              <p class="mt-3 small text-muted">Data Scientist • Software Developer • Machine Learning • Web Development</p>
+              <div class="d-flex gap-2 justify-content-center mt-3">
+                <a class="btn btn-outline-secondary btn-sm" href="#"><i class="fab fa-linkedin"></i></a>
+                <a class="btn btn-outline-secondary btn-sm" href="#"><i class="fab fa-github"></i></a>
+                <a class="btn btn-outline-secondary btn-sm" href="#"><i class="fa fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="py-6">
-    <div class="container">
-      <h2 class="mb-4">Selected Projects</h2>
-      <div class="row g-4">
-        <!-- Project card -->
-        <div class="col-md-6 col-lg-4">
-          <div class="card shadow-sm h-100">
-            <img src="assets/images/project1.jpg" class="card-img-top" alt="Project 1" />
-            <div class="card-body d-flex flex-column">
-              <h5 class="card-title">Project One</h5>
-              <p class="card-text">Short description: tools used, problem solved.</p>
-              <div class="mt-auto d-flex gap-2">
-                <a class="btn btn-outline-primary btn-sm" href="https://github.com/yourname/project1" target="_blank">Code</a>
-                <a class="btn btn-primary btn-sm" href="https://yourname.github.io/project1" target="_blank">Live</a>
-              </div>
+  <main class="container">
+
+    <!-- ABOUT -->
+    <section id="about" class="my-6">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h2 class="h4 fw-bold mb-3">About</h2>
+          <p>I am a Data Scientist & Software Developer with an MSc in Computer Science from South Asian University. My thesis and research focused on graph-based approaches and deep neural networks for sentiment analysis. I build end-to-end solutions — from data acquisition and cleaning to model training and deployment — and have experience with Python, Java, MongoDB, SQL, and web technologies.</p>
+
+          <ul class="list-unstyled mb-0">
+            <li><strong>Masters Thesis:</strong> A Graph-Based Approach for Sentiment Analysis over Micro-blogging Data using Deep Neural Network.</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card bg-light p-3">
+            <h6 class="fw-bold">Quick facts</h6>
+            <ul class="list-unstyled small mb-0">
+              <li><strong>Location:</strong> New Delhi, India</li>
+              <li><strong>Languages:</strong> English, Persian, Hindi, Pashto</li>
+              <li><strong>Availability:</strong> Freelance / Contract</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="my-6">
+      <h2 class="h4 fw-bold mb-4">Experience</h2>
+
+      <div class="timeline">
+        <!-- Data Scientist Software Developer -->
+        <div class="timeline-item">
+          <div class="timeline-date">Jul 2019 — Aug 2020</div>
+          <div class="timeline-content">
+            <h5 class="mb-1">Data Scientist & Software Developer — NeoEpo, Mohali</h5>
+            <p class="small text-muted mb-1">Built scraping pipelines, prepared datasets for training, performed EDA, developed predictive models to classify products (HS code), automated tasks using Python and MongoDB.</p>
+            <ul class="small mb-0">
+              <li>Web scraping for competitor/product data and dataset building</li>
+              <li>Exploratory Data Analysis (EDA) and predictive model development</li>
+              <li>Automation using Python; Git for source control</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Enumerator Volunteer -->
+        <div class="timeline-item">
+          <div class="timeline-date">Nov 2023 — Apr 2024</div>
+          <div class="timeline-content">
+            <h5 class="mb-1">Enumerator Volunteer — Mixed Migration Survey Project (DAJI / DRC)</h5>
+            <p class="small text-muted mb-1">Data collection from refugees using Kobo Toolbox (ODK); report generation and field data quality checks.</p>
+          </div>
+        </div>
+
+        <!-- Data Validation Operator -->
+        <div class="timeline-item">
+          <div class="timeline-date">Jan 2023 — Aug 2023</div>
+          <div class="timeline-content">
+            <h5 class="mb-1">Data Validation Operator — Pecten & Pinna Insight Solutions Pvt. Ltd.</h5>
+            <p class="small text-muted mb-1">Validated and cleaned field data, monitored data entry, prepared daily reports for supervisors.</p>
+          </div>
+        </div>
+
+        <!-- Computer Trainer -->
+        <div class="timeline-item">
+          <div class="timeline-date">2022</div>
+          <div class="timeline-content">
+            <h5 class="mb-1">Computer Trainer — Jesuit Refugee Service</h5>
+            <p class="small text-muted mb-1">Trained students in Microsoft Office, Adobe Premiere, Photoshop; promoted computing skills to refugees and school dropouts.</p>
+          </div>
+        </div>
+
+        <!-- Freelancer -->
+        <div class="timeline-item">
+          <div class="timeline-date">2021 — 2022</div>
+          <div class="timeline-content">
+            <h5 class="mb-1">Freelancer — Upwork</h5>
+            <p class="small text-muted mb-1">Delivered web design, data mining and video editing projects.</p>
+          </div>
+        </div>
+
+        <!-- Business Development -->
+        <div class="timeline-item">
+          <div class="timeline-date">2012 — 2016</div>
+          <div class="timeline-content">
+            <h5 class="mb-1">Business Development Executor — Sakhi Business Center, Kabul</h5>
+            <p class="small text-muted mb-1">Coordinated supply, customer interaction and seasonal procurement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="my-6">
+      <h2 class="h4 fw-bold mb-3">Education</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card p-3 mb-3">
+            <h6 class="fw-bold mb-1">South Asian University, New Delhi</h6>
+            <small class="text-muted">MSc — Computer Science (2017–2019). Merit scholarship holder.</small>
+            <p class="small mt-2 mb-0">Thesis: Graph-Based Approach for Sentiment Analysis using Deep Neural Networks (supervisor: Dr. Muhammad Abulaish).</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card p-3 mb-3">
+            <h6 class="fw-bold mb-1">Shaheed Prof. Rabbani Education University, Kabul</h6>
+            <small class="text-muted">BSc — Computer Science (2013–2016)</small>
+            <p class="small mt-2 mb-0">Final project: Library Management System.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="my-6">
+      <h2 class="h4 fw-bold mb-4">Projects & Selected Work</h2>
+
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Sentilangn — Language-neutral sentiment analysis</h5>
+              <p class="card-text small text-muted">Graph-based deep neural network approach for microblog sentiment analysis. Co-author of a WI 2019 conference paper.</p>
+              <p class="small mb-1"><strong>Tech:</strong> Python, Graph Neural Networks, NLP</p>
+              <a href="#publications" class="stretched-link small">Publication details →</a>
             </div>
           </div>
         </div>
-        <!-- repeat cards -->
-      </div>
-    </div>
-  </section>
 
-  <!-- ABOUT -->
-  <section id="about" class="py-5 bg-light">
-    <div class="container">
-      <h2>About</h2>
-      <p>I build clean, accessible user interfaces and care about performance and UX. I love Bootstrap + custom CSS for fast, maintainable results.</p>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" class="py-5">
-    <div class="container">
-      <h2>Skills</h2>
-      <div class="d-flex flex-wrap gap-2">
-        <span class="badge bg-primary">HTML</span>
-        <span class="badge bg-primary">CSS</span>
-        <span class="badge bg-primary">Bootstrap</span>
-        <span class="badge bg-primary">JavaScript</span>
-        <span class="badge bg-primary">Git</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="py-5 bg-light">
-    <div class="container">
-      <h2>Contact</h2>
-      <form id="contactForm" action="https://formspree.io/f/your_form_id" method="POST">
-        <div class="row g-3">
-          <div class="col-md-6">
-            <label class="form-label">Name</label>
-            <input name="name" required class="form-control" />
-          </div>
-          <div class="col-md-6">
-            <label class="form-label">Email</label>
-            <input type="email" name="email" required class="form-control" />
-          </div>
-          <div class="col-12">
-            <label class="form-label">Message</label>
-            <textarea name="message" rows="5" required class="form-control"></textarea>
-          </div>
-          <div class="col-12">
-            <button class="btn btn-primary">Send</button>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Product classification & scraping pipeline</h5>
+              <p class="card-text small text-muted">Built web-scrapers, prepared datasets and trained predictive models to classify product descriptions into HS codes for business automation.</p>
+              <p class="small mb-1"><strong>Tech:</strong> Python, BeautifulSoup/Scrapy, MongoDB, scikit-learn</p>
+              <a class="stretched-link small" href="#">Demo / repo (placeholder)</a>
+            </div>
           </div>
         </div>
-      </form>
-    </div>
-  </section>
 
-  <!-- FOOTER -->
-  <footer class="py-4 bg-white border-top">
-    <div class="container text-center">
-      <small>© <span id="year"></span> Your Name — Built with Bootstrap & GitHub Pages</small>
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="my-6">
+      <h2 class="h4 fw-bold mb-3">Skills</h2>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h6>Programming & Tools</h6>
+          <div class="mb-3">
+            <span class="badge bg-light text-dark me-1 mb-1">Python</span>
+            <span class="badge bg-light text-dark me-1 mb-1">Java</span>
+            <span class="badge bg-light text-dark me-1 mb-1">C/C++</span>
+            <span class="badge bg-light text-dark me-1 mb-1">JavaScript</span>
+            <span class="badge bg-light text-dark me-1 mb-1">MongoDB</span>
+            <span class="badge bg-light text-dark me-1 mb-1">MySQL</span>
+            <span class="badge bg-light text-dark me-1 mb-1">scikit-learn</span>
+            <span class="badge bg-light text-dark me-1 mb-1">TensorFlow / PyTorch</span>
+            <span class="badge bg-light text-dark me-1 mb-1">Git</span>
+            <span class="badge bg-light text-dark me-1 mb-1">Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <h6>Data & ML</h6>
+          <p class="small text-muted">EDA, feature engineering, predictive modeling, classification, model evaluation, automation pipelines, data cleaning and validation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS & CERTS -->
+    <section id="publications" class="my-6">
+      <h2 class="h4 fw-bold mb-3">Publications & Certifications</h2>
+
+      <ul class="list-unstyled">
+        <li class="mb-2">
+          <strong>M. Abulaish, M. Rahimi, H. Ebrahemi, A. K. Sah — "Sentilangn"</strong>
+          <div class="small text-muted">Proceedings of the 18th IEEE/WIC/ACM International Conference on Web Intelligence (WI), Thessaloniki, Greece — Oct 14–17, 2019.</div>
+        </li>
+
+        <li class="mb-2">
+          <strong>Certifications:</strong>
+          <div class="small text-muted">Regression and Deep Learning (RDL 2018), Evolutionary Algorithms workshop (Mar 2018), Computational Intelligence & Machine Learning (Dec 2017)</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="my-6">
+      <h2 class="h4 fw-bold mb-3">Contact</h2>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <form id="contactForm" class="card p-3 shadow-sm">
+            <div class="mb-3">
+              <label class="form-label small">Full name</label>
+              <input id="name" type="text" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label small">Email</label>
+              <input id="email" type="email" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label small">Message</label>
+              <textarea id="message" rows="5" class="form-control" required></textarea>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <small class="text-muted">Prefer email: habeebullahebrahemi@gmail.com</small>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card p-3 shadow-sm">
+            <h6 class="fw-bold">Contact details</h6>
+            <p class="small text-muted mb-1"><i class="fa fa-envelope me-2"></i> habeebullahebrahemi@gmail.com</p>
+            <p class="small text-muted mb-1"><i class="fa fa-phone me-2"></i> +91 87009 39579</p>
+            <p class="small text-muted mb-0"><i class="fa fa-map-marker-alt me-2"></i> New Delhi, India</p>
+            <hr>
+            <p class="small text-muted mb-0">References: Dr. Muhammad Abulaish — Department of Computer Science, South Asian University. (abulaish@sau.ac.in)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="py-4 mt-6 bg-white border-top">
+    <div class="container text-center small text-muted">
+      © <span id="year"></span> Habeebullah Ebrahemi · Data Scientist & Software Developer
     </div>
   </footer>
 
-  <!-- Bootstrap bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap JS + Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Custom JS -->
   <script src="js/main.js"></script>
 </body>
 </html>
-
