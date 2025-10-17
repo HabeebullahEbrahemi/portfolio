@@ -1,0 +1,108 @@
+{
+  "students": [
+    {
+      "id": "sajad-nabi-zada",
+      "name": "Sajad Nabi Zada",
+      "email": "snabizada817@gmail.com",
+      "image": "assets/images/sajad-nabi-zada.png",
+      "gender": "male",
+      "course": "6 month programe",
+      "duration": "6 month",
+      "status": "student",
+      "project_link": "https://snabizada817-sudo.github.io/Football-Gear-Collection/",
+      "permission_to_publish": "Yes",
+      "story": "I joined the six-month web development program simply because I love computers. Before the course I had no coding experience, but I was eager to learn how programs and websites are built. My goal was to learn the code so I could build things on my own. Throughout the course I learned HTML, CSS, JavaScript and other essential tools — and the most memorable moment was when I launched my first website, Football Gear Collection. Seeing it live made me feel proud and capable. Though I haven’t started working professionally yet, this course has given me the confidence and the practical skills I need to find web-development work. My advice to future students is to practice constantly and enjoy every moment: each small step of learning brings you closer to something big."
+    },
+    {
+      "id": "yusra-jalali",
+      "name": "Yusra Jalali",
+      "email": "sayedhamadshah2@gmail.com",
+      "image": "assets/images/yusra-jalali.png",
+      "gender": "female",
+      "course": "6 months advanced computer work",
+      "duration": "Jan–June 2025",
+      "status": "student",
+      "project_link": "Sweet Dreams Hotel (project link not available)",
+      "permission_to_publish": "Yes",
+      "story": "I joined the six-month advanced course because computers have always interested me and I study IT at school. I began with almost no experience and very limited typing skills, but I wanted to learn enough to study on my own. As I progressed, my goals changed — I now want to build websites and pursue IT professionally to make my family proud, especially my father who loves tech. The JavaScript and CSS animation lessons became my favorite parts, and our teacher’s humor made classes fun and easier to remember. Building my project, Sweet Dreams Hotel, and presenting it to my family was a proud moment. This course improved my schoolwork and my confidence. My advice to others is to pay attention, be disciplined, enjoy learning, and always be respectful — and don’t be afraid to practice, even when things seem difficult."
+    },
+    {
+      "id": "elham-omari",
+      "name": "Elham Omari",
+      "email": "elhamomari720@gmail.com",
+      "image": "assets/images/elham-omari.png",
+      "gender": "female",
+      "course": "js css html git",
+      "duration": "6 months",
+      "status": "student",
+      "project_link": "https://elhamomari720-debug.github.io/SMART-SHOPPING-PAGES/",
+      "permission_to_publish": "Yes",
+      "story": "I joined this course because I wanted to learn coding and become a software engineer. Before the classes I knew a little from watching videos, but I had no formal training. The HTML and CSS lessons were especially engaging for me, and building projects gave me real hands-on practice. My instructor was always there to help whenever I was stuck, explaining things step by step. The first time my login project worked, I felt proud and motivated to continue. Learning design and coding has already helped me a lot — I’m building my portfolio now and aiming for a job where I can keep learning and earn experience. My main advice is to work hard and give your best, because this is how you grow."
+    },
+    {
+      "id": "salma-khan",
+      "name": "Salma Khan",
+      "email": "salmamohabat7799@gmail.com",
+      "image": "assets/images/salma-khan.png",
+      "gender": "female",
+      "course": "html,css,js",
+      "duration": "6 month",
+      "status": "student",
+      "project_link": "created a game and personal portfolio (link not provided)",
+      "permission_to_publish": "No",
+      "story": "I chose this course because coding is fun and I wanted to become the best developer I could be. I started with little background but quickly discovered that with practice and clear explanations, difficult topics become manageable. I particularly enjoyed JavaScript and the interactive parts of web development. Our teacher explained concepts in English and then in our local language, which made learning much easier. One proud moment was creating a game and my own portfolio — showing that work to others made me realize how far I’ve come. I’m still a student, but I plan to become a professional web developer, create websites of my own, and eventually teach others. My advice is simple: do your best and stay confident — confidence is the achievement of success."
+    },
+    {
+      "id": "wisa-ahmadzai",
+      "name": "Wisa Ahmadzai",
+      "email": "ahmadzaiwisa@gmail.com",
+      "image": "assets/images/wisa-ahmadzai.png",
+      "gender": "female",
+      "course": "Java script class 4-5",
+      "duration": "6 months",
+      "status": "student",
+      "project_link": "https://ahmadzaiwisa-eng.github.io/general-knowledge-quiz/",
+      "permission_to_publish": "Yes",
+      "story": "I’ve attended computer classes before and knew they were valuable, so I joined this JavaScript course to continue learning. I started at zero knowledge, but I kept taking notes, practicing and asking for help when needed. The teacher was patient and supported me step by step until I understood the material. My proudest moment was when I completed my quiz website and could show it to my family — that proved to me that I can build things from scratch. Although I’m not old enough to work yet, I am building my portfolio and learning how to make helpful projects. My plan is to keep practicing and one day become a web developer."
+    },
+    {
+      "id": "mustafa-shams",
+      "name": "Mustafa Shams",
+      "email": "voidispeirce@gmail.com",
+      "image": "assets/images/mustafa-shams.png",
+      "gender": "male",
+      "course": "JavaScript - 2025",
+      "duration": "6 months",
+      "status": "student",
+      "project_link": "https://voidpeirce.github.io/Nebulaa/",
+      "permission_to_publish": "Yes",
+      "story": "After learning HTML and CSS, I realized JavaScript was the next step to make my projects interactive. I entered the course already comfortable with page layout but ready to learn programming logic. The hardest part was grasping functions and the logic behind them, but lots of practice and building a complete project helped me understand how everything connects. Our teacher encouraged experimentation and explained concepts clearly, which made the learning process productive. Completing my Nebula project was a milestone — it showed me how to turn ideas into functioning sites. I plan to continue pushing boundaries: I want to explore browser-level development and advanced tools, building larger systems and apps. My advice to new students is to experiment boldly, break things, fix them, and learn faster that way."
+    },
+    {
+      "id": "armaghan-narwan",
+      "name": "Armaghan Narwan",
+      "email": "armaghannarwan37@gmail.com",
+      "image": "assets/images/armaghan-narwan.png",
+      "gender": "female",
+      "course": "6 months",
+      "duration": "6 months",
+      "status": "student",
+      "project_link": "https://armaghannarwan37-ai.github.io/portfol/",
+      "permission_to_publish": "Yes",
+      "story": "I joined this course because I wanted to learn coding. Before the class I didn’t know HTML or CSS, but I learned a lot and was excited by how much I could do. Every part of the course helped me grow, even the challenging parts that required time and patience. Our teacher supported every student in every class, helping us individually when we needed it. I completed my own project and felt proud to see it working online. Learning here has been meaningful and I plan to keep making new projects. My tip to future students is to stay active, attend classes regularly, and practice — consistency makes a big difference."
+    },
+    {
+      "id": "zahra-gulmohammadi",
+      "name": "Zahra Gulmohammadi",
+      "email": "zeehragul9@gamil.com",
+      "image": "assets/images/zahra-gulmohammadi.png",
+      "gender": "female",
+      "course": "General web (HTML/CSS/JS)",
+      "duration": "6 months",
+      "status": "student",
+      "project_link": "https://zeehragul9-dot.github.io/myportfolio/ , https://zeehragul9-dot.github.io/ads-zahra/",
+      "permission_to_publish": "Yes",
+      "story": "I always dreamed of creating my own website with beautiful designs, so I joined this course to turn that dream into reality. I had only basic computer knowledge before, but the course helped me move from simple ideas to finished projects. I enjoyed CSS and JavaScript the most, and while JavaScript was sometimes difficult, my teacher’s patience and support helped me persist. I completed two projects — an ads page and my personal portfolio — and these gave me new ideas and better technical confidence. My friends and teachers praised my work, which motivated me to continue. I aim to become a developer with many websites and always advise others to be patient, disciplined, and never give up."
+    }
+  ]
+}
